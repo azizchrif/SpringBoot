@@ -199,3 +199,130 @@ Caused by: org.hibernate.HibernateException: Access to DialectResolutionInfo can
 2023-05-13 18:24:34.325  WARN 26488 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
 2023-05-13 18:24:34.783  INFO 26488 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
 2023-05-13 18:24:34.791  INFO 26488 --- [main] c.e.cherifaziz.CherifAzizApplication     : Started CherifAzizApplication in 4.87 seconds (JVM running for 5.633)
+2023-05-13 19:08:46.390  INFO 23608 --- [main] c.e.cherifaziz.CherifAzizApplication     : Starting CherifAzizApplication using Java 1.8.0_144 on MSI with PID 23608 (C:\Users\21628\Desktop\SpringBoot\target\classes started by 21628 in C:\Users\21628\Desktop\SpringBoot)
+2023-05-13 19:08:46.394  INFO 23608 --- [main] c.e.cherifaziz.CherifAzizApplication     : No active profile set, falling back to 1 default profile: "default"
+2023-05-13 19:08:47.464  INFO 23608 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-13 19:08:47.462  INFO 19648 --- [main] c.e.cherifaziz.CherifAzizApplication     : Starting CherifAzizApplication using Java 1.8.0_144 on MSI with PID 19648 (C:\Users\21628\Desktop\SpringBoot\target\classes started by 21628 in C:\Users\21628\Desktop\SpringBoot)
+2023-05-13 19:08:47.465  INFO 19648 --- [main] c.e.cherifaziz.CherifAzizApplication     : No active profile set, falling back to 1 default profile: "default"
+2023-05-13 19:08:47.572  INFO 23608 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 96 ms. Found 6 JPA repository interfaces.
+2023-05-13 19:08:48.122  INFO 19648 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-13 19:08:48.193  INFO 19648 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 62 ms. Found 6 JPA repository interfaces.
+2023-05-13 19:08:48.326  INFO 23608 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2023-05-13 19:08:48.336  INFO 23608 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-05-13 19:08:48.336  INFO 23608 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-05-13 19:08:48.499  INFO 23608 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-05-13 19:08:48.499  INFO 23608 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2055 ms
+2023-05-13 19:08:48.691  INFO 23608 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-13 19:08:48.734  INFO 23608 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-05-13 19:08:48.756  INFO 19648 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2023-05-13 19:08:48.764  INFO 19648 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-05-13 19:08:48.764  INFO 19648 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-05-13 19:08:48.917  INFO 19648 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-05-13 19:08:48.918  INFO 19648 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1393 ms
+2023-05-13 19:08:48.942  INFO 23608 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-05-13 19:08:49.040  INFO 23608 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-05-13 19:08:49.086  INFO 19648 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-13 19:08:49.121  INFO 19648 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-05-13 19:08:49.166  INFO 23608 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-05-13 19:08:49.189  INFO 23608 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2023-05-13 19:08:49.314  INFO 19648 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-05-13 19:08:49.397  INFO 19648 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-05-13 19:08:49.519  INFO 19648 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-05-13 19:08:49.534  INFO 19648 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2023-05-13 19:08:49.976  INFO 23608 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-13 19:08:49.987  INFO 23608 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-13 19:08:50.157  INFO 19648 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-13 19:08:50.167  INFO 19648 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-13 19:08:50.666  WARN 23608 --- [main] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [c.inscriptions.size]; use collection function syntax instead [size(c.inscriptions)].
+2023-05-13 19:08:50.719  WARN 19648 --- [main] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [c.inscriptions.size]; use collection function syntax instead [size(c.inscriptions)].
+2023-05-13 19:08:51.016  WARN 23608 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-13 19:08:51.047  WARN 19648 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-13 19:08:51.551  WARN 19648 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 9090 is already in use
+2023-05-13 19:08:51.554  INFO 19648 --- [main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-13 19:08:51.556  INFO 19648 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-05-13 19:08:51.560  INFO 19648 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-05-13 19:08:51.562  INFO 19648 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-05-13 19:08:51.572  INFO 19648 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-05-13 19:08:51.582  WARN 23608 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 9090 is already in use
+2023-05-13 19:08:51.585  INFO 23608 --- [main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-13 19:08:51.587  INFO 23608 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-05-13 19:08:51.590 ERROR 19648 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 9090 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 9090 or configure this application to listen on another port.
+
+2023-05-13 19:08:51.600  INFO 23608 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-05-13 19:08:51.601  INFO 23608 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-05-13 19:08:51.613  INFO 23608 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-05-13 19:08:51.632 ERROR 23608 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 9090 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 9090 or configure this application to listen on another port.
+
+2023-05-13 19:09:22.633  INFO 11556 --- [main] c.e.cherifaziz.CherifAzizApplication     : Starting CherifAzizApplication using Java 1.8.0_144 on MSI with PID 11556 (C:\Users\21628\Desktop\SpringBoot\target\classes started by 21628 in C:\Users\21628\Desktop\SpringBoot)
+2023-05-13 19:09:22.636  INFO 11556 --- [main] c.e.cherifaziz.CherifAzizApplication     : No active profile set, falling back to 1 default profile: "default"
+2023-05-13 19:09:23.169  INFO 11556 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-13 19:09:23.240  INFO 11556 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 63 ms. Found 6 JPA repository interfaces.
+2023-05-13 19:09:23.845  INFO 11556 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9010 (http)
+2023-05-13 19:09:23.850  INFO 11556 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-05-13 19:09:23.850  INFO 11556 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-05-13 19:09:23.972  INFO 11556 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-05-13 19:09:23.972  INFO 11556 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1292 ms
+2023-05-13 19:09:24.126  INFO 11556 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-13 19:09:24.165  INFO 11556 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-05-13 19:09:24.352  INFO 11556 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-05-13 19:09:24.442  INFO 11556 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-05-13 19:09:24.557  INFO 11556 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-05-13 19:09:24.571  INFO 11556 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2023-05-13 19:09:25.148  INFO 11556 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-13 19:09:25.158  INFO 11556 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-13 19:09:25.622  WARN 11556 --- [main] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [c.inscriptions.size]; use collection function syntax instead [size(c.inscriptions)].
+2023-05-13 19:09:25.916  WARN 11556 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-13 19:09:26.371  INFO 11556 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9010 (http) with context path ''
+2023-05-13 19:09:26.379  INFO 11556 --- [main] c.e.cherifaziz.CherifAzizApplication     : Started CherifAzizApplication in 4.145 seconds (JVM running for 4.886)
+2023-05-13 19:09:35.542  INFO 11556 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-13 19:09:35.544  INFO 11556 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-05-13 19:09:35.548  INFO 11556 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-05-13 19:09:39.662  INFO 18820 --- [main] c.e.cherifaziz.CherifAzizApplication     : Starting CherifAzizApplication using Java 1.8.0_144 on MSI with PID 18820 (C:\Users\21628\Desktop\SpringBoot\target\classes started by 21628 in C:\Users\21628\Desktop\SpringBoot)
+2023-05-13 19:09:39.666  INFO 18820 --- [main] c.e.cherifaziz.CherifAzizApplication     : No active profile set, falling back to 1 default profile: "default"
+2023-05-13 19:09:40.274  INFO 18820 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-13 19:09:40.328  INFO 18820 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 46 ms. Found 6 JPA repository interfaces.
+2023-05-13 19:09:40.770  INFO 18820 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9010 (http)
+2023-05-13 19:09:40.775  INFO 18820 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-05-13 19:09:40.775  INFO 18820 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-05-13 19:09:40.893  INFO 18820 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-05-13 19:09:40.894  INFO 18820 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1175 ms
+2023-05-13 19:09:41.053  INFO 18820 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-13 19:09:41.080  INFO 18820 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-05-13 19:09:41.221  INFO 18820 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-05-13 19:09:41.284  INFO 18820 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-05-13 19:09:41.375  INFO 18820 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-05-13 19:09:41.387  INFO 18820 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2023-05-13 19:09:42.705  INFO 18820 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-13 19:09:42.713  INFO 18820 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-13 19:09:43.133  WARN 18820 --- [main] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [c.inscriptions.size]; use collection function syntax instead [size(c.inscriptions)].
+2023-05-13 19:09:43.406  WARN 18820 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-13 19:09:43.840  INFO 18820 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9010 (http) with context path ''
+2023-05-13 19:09:43.850  INFO 18820 --- [main] c.e.cherifaziz.CherifAzizApplication     : Started CherifAzizApplication in 4.543 seconds (JVM running for 5.383)
